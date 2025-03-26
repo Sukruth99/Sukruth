@@ -67,10 +67,7 @@ function App() {
         <div className="profile-header">
         <div className="profile-circle" onClick={triggerFileInput}>
   <img src={profileImage} alt="Profile" className="profile-picture" />
-  <div className="profile-overlay">
-    <i className="fas fa-camera"></i>
-    <span>Update Photo</span>
-  </div>
+  
 </div>
           <div className="profile-text">
             <h1>Sukruth Kotturu</h1>
